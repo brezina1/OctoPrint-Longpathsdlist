@@ -1,0 +1,4 @@
+include README.md
+recursive-include octoprint_LongPathSDList/templates *
+recursive-include octoprint_LongPathSDList/translations *
+recursive-include octoprint_LongPathSDList/static *
