@@ -17,7 +17,7 @@ class LongPathSDListPlugin(octoprint.plugin.OctoPrintPlugin):
 
     def get_update_information(self):
             return dict(
-                longSdPaths=dict(
+                LongSdPaths=dict(
                     displayName=self._plugin_name,
                     displayVersion=self._plugin_version,
 
