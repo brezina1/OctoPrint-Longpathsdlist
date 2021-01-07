@@ -5,7 +5,7 @@ import logging
 
 class LongPathSDListPlugin(octoprint.plugin.OctoPrintPlugin):
     def on_sd_list(self, comm, line, *args, **kwargs):
-        if "End file list" not in line:
+        if "End file list" not in line or (comm.isPrinting() and not comm.isSdPrinting()):
             return line
 
         for file in comm._sdFiles:
