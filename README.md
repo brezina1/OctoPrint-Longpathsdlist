@@ -2,6 +2,10 @@
 
 Shows long file names in the SD List
 
+## Requires `SDSUPPORT` and `LONG_FILENAME_HOST_SUPPORT` in Marlin
+
+More info [here](https://marlinfw.org/docs/gcode/M033.html)
+
 ## Setup
 
 Install via the bundled [Plugin Manager](https://docs.octoprint.org/en/master/bundledplugins/pluginmanager.html)
