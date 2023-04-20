@@ -1,4 +1,6 @@
-# OctoPrint-Longpathsdlist
+# No longer maintained as I have completely stopped using SD cards in favor of direct printing through OctoPrint.
+
+## OctoPrint-Longpathsdlist
 
 Shows long file names in the SD List
 
